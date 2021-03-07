@@ -1,12 +1,36 @@
+/**
+ * 
+ */
 
+/**
+ * @author mateusmolina
+ *
+ */
 public class Train {
 	private ICar[] cars;
 	
 	public void addCar(ICar car, ICoupler couBefore, ICoupler couAfter) {
 		
 	}
-	public void delCar(ICar car) {
+	
+	// Begin train operator utilities
+	public void changeGear(int NewGear) {
 		
 	}
+	
+	public void relieveBrake(double RelievePressure) {
+		
+		
+	}
+	
+	public void applyDynamicBrake(int Gear) {
+		
+	}
+	
+	
+//	public void delCar(ICar car) {
+//		
+//	}
+	
 	
 }
