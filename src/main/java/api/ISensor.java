@@ -1,3 +1,4 @@
+package api;
 /**
  * 
  */
@@ -8,9 +9,9 @@
  */
 public interface ISensor {
 	// General PUB Sensor implementation
-	public void pub(float value);
+	public void pub(double value);
 	
 	// Reads the last published value
-	public float read();
+	public double read();
 
 }

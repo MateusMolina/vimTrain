@@ -1,13 +1,20 @@
+package components;
 /**
  * 
  */
+
+import api.IBrake;
+import api.ISensor;
 
 /**
  * @author mateusmolina
  *
  */
 public class PneumaticBrake implements IBrake {
-	
+	protected ISensor SensorManGP = new GeneralSensor(GeneralSensor.MANOMETER, "MAN_GP");
+	protected ISensor SensorManMainRes = new GeneralSensor(GeneralSensor.MANOMETER, "MAN_MAINRES");
+	protected ISensor SensorManEmerRes = new GeneralSensor(GeneralSensor.MANOMETER, "MAN_EMERRES");
+
 	// MainRes
 	private double MainResP = 0; 
 	private double MainResV = 0.7; //m³

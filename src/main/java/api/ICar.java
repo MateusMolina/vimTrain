@@ -1,5 +1,7 @@
+package api;
 
 public interface ICar {
+	
 	
 	// get default length (L0)
 	public double getL0();
@@ -12,13 +14,17 @@ public interface ICar {
 	// get total retardative force based on current published sensors' values
 	public double getF();
 	
-	// get a list of sensors installed in the car
-	public ISensor[] getSensors();
-	
 	// get a list of the two installed couplers (0:before, 1:after)
 	public ICoupler[] getCouplers();
 	
-	// read current GP value through the GP Pressure Sensor
-	public double getGPP();
+	// get a list of sensors installed in the car
+	public ISensor[] getSensors();
+	
+	// Mandatory Sensors
+	// * Displacement
+	public ISensor getSensorX();
+	
+	// * Odometer
+	public ISensor getSensorOdometer();
 
 }
