@@ -13,3 +13,18 @@ This is an open source project that I'm developing with the goal to simulate a t
 - Work together instrumented real trains as a digital twin and continuously optimize the operation
 - Easy deployment via Eclipse Basyx
 - Machine Learning optimized conduction based on input path and end goal
+
+## Epic List
+
+### 👾 Simulation in Console with mocked Pneumatics
+- [ ] Interfaces implemented
+- [ ] General implementation
+- [ ] Method Factories
+- [ ] General Simulator implemented
+- [ ] Test Cases
+
+### ⚡ Sensors implemented
+
+### 📉 Graphical 2D Simulation with mocked Pneumatics
+
+### 💨 Implementation of OpenPneumatics
