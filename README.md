@@ -17,7 +17,7 @@ This is an open source project that I'm developing with the goal to simulate a t
 ## Epic List
 
 ### 👾 Simulation in Console with mocked Pneumatics
-- [ ] Interfaces implemented
+- [X] Interfaces implemented
 - [ ] General implementation
 - [ ] Method Factories
 - [ ] General Simulator implemented
